@@ -425,6 +425,9 @@
   .app-market h3, .payment h3{
     text-align: center;
   }
+  .franchies-box {
+    height: 100px;
+  }
 }
 
 @media (max-width: 576px) {
