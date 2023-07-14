@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/Style.css" />
+    <link rel="stylesheet" href="Css/Res.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>BAYLEN de Louis Franchise</title>
+  </head>
+
+  <body>
+    <header id="Home">
+      <nav class="navbar">
+        <div class="container">
+          <div class="brand">
+            <img src="Asstes/logo.png" alt="Brand" />
+          </div>
+          <div class="menu">
+            <i class="bi bi-list"></i>
+            <div class="main-menu">
+              <a href="#Home">Home</a>
+              <a href="#Services">Services</a>
+              <a href="#Franchies">Franchies Models</a>
+              <a href="#Testimonial">Testimonial's</a>
+              <a href="#Contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="container">
+          <div class="heading">
+            <h1>Our Franchise</h1>
+            <h4>
+              India's one of the leading and fast growing Luxury Salon Industry
+            </h4>
+          </div>
+
+          <section class="form-feedback">
+            <div class="upper-form form">
+              <div class="form-details">
+                <h1>Get in touch</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Error, similique.
+                </p>
+                <form action="backend.php" method="post">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                    required
+                    id="upper-name"
+                    autocomplete="off"
+                  />
+                  <input
+                    type="number"
+                    placeholder="Phone no."
+                    name="phone"
+                    required
+                    id="upper-phone"
+                    autocomplete="off"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="upper-email"
+                    placeholder="Email Address"
+                    autocomplete="off"
+                    required
+                  />
+                  <select id="mySelect" name="mySelect">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                    <option value="option4">Option 4</option>
+                  </select>
+                  <button type="submit" name="send-mail">Send Message</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="feedback" style="position: relative">
+              <div
+                class="svg-pic"
+                style="
+                  overflow: hidden;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  opacity: 0.2;
+                  z-index: 1;
+                "
+              >
+                <svg
+                  preserveAspectRatio="none"
+                  viewBox="0 0 1200 120"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="fill: #ffffff; width: 100%; height: 295px"
+                >
+                  <path
+                    d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
+                    opacity=".25"
+                  />
+                  <path
+                    d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
+                    opacity=".5"
+                  />
+                  <path
+                    d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z"
+                  />
+                    
+                </svg>
+              </div>
+              <div class="feedback-content" style="position: relative">
+                <div class="feedback-main" style="z-index: 3">
+                  <div class="feedback-left">
+                    <p class="clients">CLIENTS</p>
+                    <h1 class="feedback-heading">
+                      Happy with <br />
+                      Customers & Clients
+                    </h1>
+                    <div class="line-component">
+                      <div class="line-main"></div>
+                      <div class="line-sec"></div>
+                    </div>
+                    <p class="review-left-para">
+                      If you need any industrial solution we are available for
+                      you. Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua.
+                    </p>
+                    <a class="contact-link" href="#">Contact Us</a>
+                  </div>
+                  <div class="feedback-right">
+                    <div class="swiper" style="width: 100%">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="user-img">
+                            <img
+                              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-review">
+                            <h3>Bishal Kayal</h3>
+                            <h6>WEB DESIGNER, Digital Webhub</h6>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Aut et ratione velit facere illo
+                              saepe itaque repellendus a. Vitae inventore fugit
+                              harum architecto corporis, omnis rerum veritatis
+                              dolorem perspiciatis. Libero.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="user-img">
+                            <img
+                              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-review">
+                            <h3>Bishal Kayal</h3>
+                            <h6>WEB DESIGNER, Digital Webhub</h6>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Aut et ratione velit facere illo
+                              saepe itaque repellendus a. Vitae inventore fugit
+                              harum architecto corporis, omnis rerum veritatis
+                              dolorem perspiciatis. Libero.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="user-img">
+                            <img
+                              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-review">
+                            <h3>Bishal Kayal</h3>
+                            <h6>WEB DESIGNER, Digital Webhub</h6>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Aut et ratione velit facere illo
+                              saepe itaque repellendus a. Vitae inventore fugit
+                              harum architecto corporis, omnis rerum veritatis
+                              dolorem perspiciatis. Libero.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="user-img">
+                            <img
+                              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-review">
+                            <h3>Bishal Kayal</h3>
+                            <h6>WEB DESIGNER, Digital Webhub</h6>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Aut et ratione velit facere illo
+                              saepe itaque repellendus a. Vitae inventore fugit
+                              harum architecto corporis, omnis rerum veritatis
+                              dolorem perspiciatis. Libero.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- If we need navigation buttons -->
+                      <div
+                        class="swiper-button-prev swiper-button-prev-upper btn-navigation btn-navigation-upper"
+                      ></div>
+                      <div
+                        class="swiper-button-next btn-navigation btn-navigation-upper"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </header>
+
+    <section id="Services" class="services section">
+      <div class="container">
+        <h1 class="section-heading">Services & Features</h1>
+        <div class="services-content">
+          <div class="services-box">
+            <div class="services-icons">
+              <i class="bi bi-brush-fill"></i>
+            </div>
+            <div class="services-box-content">
+              <h2 class="services-name">web design</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                quasi! Ullam id suscipit, temporibus reprehenderit tempora quis
+                delectus harum odit. Distinctio assumenda quia facilis quae
+                voluptate delectus quos, architecto recusandae.
+              </p>
+            </div>
+          </div>
+          <div class="services-box">
+            <div class="services-icons">
+              <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="services-box-content">
+              <h2 class="services-name">web development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                quasi! Ullam id suscipit, temporibus reprehenderit tempora quis
+                delectus harum odit. Distinctio assumenda quia facilis quae
+                voluptate delectus quos, architecto recusandae.
+              </p>
+            </div>
+          </div>
+          <div class="services-box">
+            <div class="services-icons">
+              <i class="bi bi-palette2"></i>
+            </div>
+            <div class="services-box-content">
+              <h2 class="services-name">mockup design</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                quasi! Ullam id suscipit, temporibus reprehenderit tempora quis
+                delectus harum odit. Distinctio assumenda quia facilis quae
+                voluptate delectus quos, architecto recusandae.
+              </p>
+            </div>
+          </div>
+          <div class="services-box">
+            <div class="services-icons">
+              <i class="bi bi-plugin"></i>
+            </div>
+            <div class="services-box-content">
+              <h2 class="services-name">app development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                quasi! Ullam id suscipit, temporibus reprehenderit tempora quis
+                delectus harum odit. Distinctio assumenda quia facilis quae
+                voluptate delectus quos, architecto recusandae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="franchies section" id="Franchies">
+      <div class="container">
+        <h1 class="section-heading">Franchise Models</h1>
+        <div class="franchies-content">
+          <div class="franchies-box">
+            <a href="#"><img src="Asstes/silver.jpg" alt=""></a>
+          </div>
+          <div class="franchies-box">
+            <a href="#"><img src="Asstes/gold.jpg" alt=""></a>
+          </div>
+          <div class="franchies-box">
+            <a href="#"><img src="Asstes/diamond.jpg" alt=""></a>
+          </div>
+          <div class="franchies-box">
+            <a href="#"><img src="Asstes/royal.jpg" alt=""></a>
+          </div>
+          <div class="franchies-box">
+            <a href="#"><img src="Asstes/luxary.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonial" id="Testimonial">
+      <div class="container">
+        <h1 class="section-heading">Testimonial's</h1>
+        <div class="tetimonial-content">
+          <div class="testi">
+            <div class="body swiper2">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img
+                        src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </div>
+                    <div class="aside">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corporis atque nobis asperiores recusandae corrupti
+                        perferendis quidem quae sit, nihil ipsa!
+                      </p>
+                      <div class="name">
+                        <h4>Bishal Kayal</h4>
+                        <p>Web Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img
+                        src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </div>
+                    <div class="aside">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corporis atque nobis asperiores recusandae corrupti
+                        perferendis quidem quae sit, nihil ipsa!
+                      </p>
+                      <div class="name">
+                        <h4>Bishal Kayal</h4>
+                        <p>Web Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img
+                        src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </div>
+                    <div class="aside">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corporis atque nobis asperiores recusandae corrupti
+                        perferendis quidem quae sit, nihil ipsa!
+                      </p>
+                      <div class="name">
+                        <h4>Bishal Kayal</h4>
+                        <p>Web Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img
+                        src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </div>
+                    <div class="aside">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corporis atque nobis asperiores recusandae corrupti
+                        perferendis quidem quae sit, nihil ipsa!
+                      </p>
+                      <div class="name">
+                        <h4>Bishal Kayal</h4>
+                        <p>Web Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="Contact" style="padding-bottom: 0; margin-bottom: 0;">
+      <h1 class="section-heading">Contact US</h1>
+      <div class="contact-pic-section"></div>
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-section-form-content">
+            <div class="contact-section-form">
+              <form action="backend.php" method="post">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  autocomplete="off"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  autocomplete="off"
+                  required
+                />
+                <textarea
+                  name="message"
+                  placeholder="Write Message"
+                  autocomplete="off"
+                  cols="30"
+                  rows="4"
+                  required
+                ></textarea>
+                <button type="submit" name="contact_lower">Send</button>
+              </form>
+            </div>
+            <div class="contact-section-info">
+              <div class="contact-info-box">
+                <div class="contact-box-left">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="contact-box-right">
+                  <h5>Techical support</h5>
+                  <p>support@example.com <br />+1 234-567-89</p>
+                </div>
+              </div>
+              <div class="contact-info-box">
+                <div class="contact-box-left">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="contact-box-right">
+                  <h5>Techical support</h5>
+                  <p>support@example.com <br />+1 234-567-89</p>
+                </div>
+              </div>
+              <div class="contact-info-box">
+                <div class="contact-box-left">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="contact-box-right">
+                  <h5>Techical support</h5>
+                  <p>support@example.com <br />+1 234-567-89</p>
+                </div>
+              </div>
+              <div class="contact-info-box">
+                <div class="contact-box-left">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="contact-box-right">
+                  <h5>Techical support</h5>
+                  <p>support@example.com <br />+1 234-567-89</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="line-long" style="width: 100%; height: 2px; background-color: #ffffff; margin-top: 20px;"></div>
+
+          <div class="contact-section-links">
+            <div class="notify">
+                <h3>Stay In The Know. Signup For Emails</h3>
+                <div class="notify-content">
+                    <form action="backend.php" method="post">
+                        <input type="email" name="email" placeholder="Enter You Email Address" required>
+                        <button type="Submit" name="notify">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-links shop">
+                <h3>Shops</h3>
+                <a href="#">Services</a>
+                <a href="#">Products</a>
+                <a href="#">Offers</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Memberships</a>
+            </div>
+            <div class="contact-links about">
+                <h3>Shops</h3>
+                <a href="#">Services</a>
+                <a href="#">Products</a>
+            </div>
+            <div class="contact-links support">
+                <h3>Shops</h3>
+                <a href="#">Services</a>
+            </div>
+            <div class="contact-links region">
+                <h3>Shops</h3>
+                <p>Services</p>
+                <p>Services</p>
+                <p>Services</p>
+                <p>Services</p>
+                <p>Services</p>
+            </div>
+            <div class="contact-links get-in-touch">
+                <h3>Shops</h3>
+                <p><i class="bi bi-chat-left-dots-fill"></i>Message</p>
+                <p><i class="bi bi-telephone-fill"></i>+91 1234567890</p>
+                <p><i class="bi bi-envelope-fill"></i>example.gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <div class="app-market">
+                <h3>Download The Enrich App</h3>
+                <div class="app-img">
+                    <img src="Asstes/google-play-png-logo-3799.png" alt="">
+                    <img src="Asstes/app-store-png-logo-33116.png" alt="">
+                </div>
+            </div>
+            <div class="social-link-icon">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-pinterest"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+            <div class="payment">
+              <h3>Payment Method</h3>
+              <div class="app-img payment-img">
+                <img src="Asstes/pngwing.com.png" alt="">
+                <img src="Asstes/mastercard-26132.png" alt="">
+                <img src="Asstes/pngwing.com (1).png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="copyright" style="text-align: center; color: #ffffff; padding: 20px 0;">
+            <i class="bi bi-c-circle"></i> <span id="year"></span> Company, All rights reserved. <br>
+            Design By <a style="color: rgba(255, 255, 255, 0.445); text-decoration: none; font-weight: 600;" href="https://fullstackguru.in/" target="_blank">Bishal Kayal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="Js/App.js"></script>
+  </body>
+</html>
